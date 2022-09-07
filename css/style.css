@@ -13,12 +13,13 @@
 header {
   background-color: #ff6900;
 }
-.hdr,.fixed {
+.hdr,
+.fixed {
   width: 100%px;
   height: 80px;
 }
 .container {
-  max-width: 1400px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 
@@ -54,3 +55,55 @@ ul {
 .icons {
   color: white;
 }
+
+/* MAIN  */
+.main-content {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.cont-img {
+  width: 370px;
+  height: 530px;
+  padding-right: 10px;
+  background: lightgrey;
+  display: inline-block;
+  position: relative;
+}
+.flex-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 15px;
+}
+.heart {
+  position: absolute;
+  font-size: 14px;
+  background-color: green;
+  right: 0;
+}
+
+.img {
+  width: 100%;
+  position: absolute;
+}
+.text-pos {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+.under-text {
+  width: 370px;
+  height: 50px;
+}
+
+/* .cont-img:hover . {
+  display: block;
+}
+
+.:hover . {
+  display: block;
+}
+
+.: . {
+  display: block;
+} */
