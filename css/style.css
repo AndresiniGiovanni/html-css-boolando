@@ -15,7 +15,7 @@ header {
 }
 .hdr,
 .fixed {
-  width: 100%px;
+  width: 100%;
   height: 80px;
 }
 .container {
@@ -107,3 +107,46 @@ ul {
 .: . {
   display: block;
 } */
+
+footer {
+  background-color: #1a1a1a;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.boolando {
+  max-width: 1170px;
+  padding-top: 20px;
+  max-width: 400px;
+}
+
+h3 {
+  color: white;
+}
+
+.shortcut-footer {
+  display: flex;
+  list-style: none;
+  padding-top: 8px;
+}
+
+.link-footer {
+  text-decoration: none;
+  padding-right: 8px;
+  color: white;
+}
+
+.trovaci {
+  padding-bottom: ;
+  float: right;
+  color: white;
+}
+
+.social {
+  float: right;
+}
