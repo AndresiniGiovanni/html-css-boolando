@@ -1,0 +1,56 @@
+/* UTILITY */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* HEADER  */
+header {
+  background-color: #ff6900;
+}
+.hdr,.fixed {
+  width: 100%px;
+  height: 80px;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header nav,
+.container {
+  padding: 20px;
+}
+
+ul {
+  min-width: 170px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+  align-items: center;
+}
+
+.logo {
+  width: 134px;
+}
+
+.link {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.shortcuts {
+  list-style: none;
+}
+.icons {
+  color: white;
+}
